@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Package</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: orange;
+        }
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .menu-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-details {
+            padding: 15px;
+        }
+        .menu-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0;
+            color: #333;
+        }
+        .menu-description {
+            font-size: 0.9em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .button {
+            font-size: 1em;
+            font-weight: bold;
+            color: #e63946;
+	    cursor:pointer;
+        }
+	.button:hover{
+	background-color: #e11b00;
+	color: white;
+	}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; padding: 20px 0;">Choose Your Package</h1>
+    </header>
+    <section class="menu-container">
+        <div class="menu-item">
+            <img src="fiesta package.jpg">
+            <div class="menu-details">
+                <h2 class="menu-title">Fiesta Package</h2>
+                <p class="menu-description">Enjoy a fiest with your family.</p>
+                <a href="5thpage.html"><button class="button">Choose</button></a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="birthday package.jpg" alt="Menu Item 2">
+            <div class="menu-details">
+                <h2 class="menu-title">Birthday Package</h2>
+                <p class="menu-description">Enjoy your birthday with our package deal.</p>
+                <a href="5thpage.html"><button class="button">Choose</button></a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="holiday package.jpg" alt="Menu Item 3">
+            <div class="menu-details">
+                <h2 class="menu-title">Holiday Package</h2>
+                <p class="menu-description">Celebrate your holiday with the tastiest foods.</p>
+                <a href="5thpage.html"><button class="button">Choose</button></a>
+            </div>
+        </div>
+    </section>
+	<a href="3rdpage.html"><text style="font-size:25px; position: absolute; top:89%; left:5%;" class="back">Back</text></a>
+	<style>
+	.back{
+	color:black;
+	}
+	.back:hover{
+	color:white;
+	}
+</body>
+</html>
